@@ -1,0 +1,17 @@
+[
+  {
+    "repository":  "APOPHIS9283/device_oppo_common",
+    "target_path": "device/oppo/common",
+    "branch":      "oc-mr2"
+  },
+  {
+    "repository":  "Singularity-Kernel",
+    "target_path": "kernel/oneplus/msm8998",
+    "branch":      "unified"
+  },
+  {
+    "repository":  "APOPHIS9283/vendor_oneplus",
+    "target_path": "vendor/oneplus",
+    "branch":      "oc-mr2"
+  }
+]
