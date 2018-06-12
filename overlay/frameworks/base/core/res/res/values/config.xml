@@ -507,5 +507,4 @@
 
     <!-- Whether device has dash charging support -->
     <bool name="config_hasDashCharger">true</bool>
-
 </resources>
