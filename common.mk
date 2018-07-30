@@ -409,6 +409,12 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/common/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
+# GPS permissions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/system/etc/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.location.sdk.xml \
+    $(LOCAL_PATH)/prebuilt/system/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.location.xml \
+    $(LOCAL_PATH)/prebuilt/system/etc/permissions/com.qualcomm.location.vzw_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.location.vzw_library.xml
+
 # Seccomp policy
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp_policy/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
